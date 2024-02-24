@@ -1,0 +1,37 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#gameContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+}
+
+.ship {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 20px;
+    background-size: cover;
+}
+
+.bullet {
+    width: 5px;
+    height: 20px;
+    background-color: yellow;
+    position: absolute;
+}
+
+.enemy {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-size: cover;
+}
